@@ -1,6 +1,6 @@
 # Mel_Color_Norm-CellDetection
 # H &amp; E color normalization and Cell Detection Algorithms 
-The color normalization algorithm was initially developed using the Mecenko MatLab code, which is instrumental in standardizing color variations across histopathological images. This process addressed discrepancies in stain intensity and hue, ensuring consistent color representation for downstream analysis. The algorithm was then integrated into QuPath, creating a one-click color normalization tool for ease of use and efficiency in large-scale image processing. Once the color normalization was complete, the next step involved developing a cell detection algorithm using these standardized images. 
+The color normalization algorithm was initially developed using the Mecenko MatLab code, which is instrumental in standardizing color variations across histopathological images. This process addressed discrepancies in stain intensity and hue, ensuring consistent color representation for downstream analysis. The algorithm was then integrated into QuPath, creating a one-click color normalization tool for ease of use and efficiency in large-scale image processing. Once color normalization is complete, the next step involves detecting cells within the tissues. The cell detection algorithm was specifically developed using these color standardized H&E images.
 # Color Normalization of hematoxylin and eosin (H&E) stained images
 Matt - please write this bit.
 # Cell Detection Algorithm
